@@ -9,7 +9,7 @@ spring:
   zuul:
     routes:
       myproduct:
-        path: /myproduct1/**
+        path: /myproduct11/**
         serviceId: product
 management:
   security:
