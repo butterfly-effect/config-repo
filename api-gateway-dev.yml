@@ -13,4 +13,4 @@ zuul:
       serviceId: product
 management:
   security:
-    enabled: false  
+    enabled: false
