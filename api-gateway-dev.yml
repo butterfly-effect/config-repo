@@ -1,6 +1,11 @@
 spring:
   application:
     name: api-gateway
+  rabbitmq:
+      host: 172.16.0.243
+      port: 5672
+      username: guest
+      password: guest
 zuul:
   routes:
     myproduct:
