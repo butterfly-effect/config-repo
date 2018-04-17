@@ -12,6 +12,7 @@ zuul:
     myproduct:
       path: /myproduct/**
       serviceId: product
+      sensitiveHeaders:
 management:
   security:
     enabled: false
