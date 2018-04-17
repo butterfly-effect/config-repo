@@ -9,7 +9,7 @@ zuul:
       sensitiveHeaders:
 #    product: /myproduct/**
   ignored-patterns:
-    - /**/product/listForOrder
+    - /**/product/listForxOrder
 management:
   security:
     enabled: false  
