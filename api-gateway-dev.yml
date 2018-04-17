@@ -6,13 +6,11 @@ spring:
       port: 5672
       username: guest
       password: guest
-zuul:
-  routes:
-    myproduct:
-      path: /myproduct24/**
-      serviceId: product
-      sensitiveHeaders:
-      
+  zuul:
+    routes:
+      myproduct:
+        path: /myproduct/**
+        serviceId: product
 management:
   security:
     enabled: false  
