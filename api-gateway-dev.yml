@@ -9,7 +9,7 @@ spring:
 zuul:
   routes:
     myproduct:
-      path: /myproduct1/**
+      path: /myproduct2/**
       serviceId: product
       sensitiveHeaders:
       
