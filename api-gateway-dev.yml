@@ -12,10 +12,7 @@ zuul:
       path: /myproduct/**
       serviceId: product
       sensitiveHeaders:
-#    product: /myproduct/**
-  ignored-patterns:
-    - /myproduct/product/listForOrder
-    - /product/product/listForOrder
+      
 management:
   security:
     enabled: false  
