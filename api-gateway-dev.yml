@@ -6,11 +6,11 @@ spring:
       port: 5672
       username: guest
       password: guest
-  zuul:
-    routes:
-      myproduct:
-        path: /myproduct33/**
-        serviceId: product
+zuul:
+  routes:
+    myproduct:
+      path: /myproduct33/**
+      serviceId: product
 management:
   security:
     enabled: false  
