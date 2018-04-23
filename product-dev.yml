@@ -3,7 +3,7 @@ spring:
     name: product
   datasource:
     driver-class-name: com.mysql.jdbc.Driver
-    url: jdbc:mysql://172.16.0.243:3307/springcloud_sell?characterEncoding=UTF-8&useSSL=false
+    url: jdbc:mysql://172.16.0.185:3307/springcloud_sell?characterEncoding=UTF-8&useSSL=false
     username: root
     password: root
   jpa:
