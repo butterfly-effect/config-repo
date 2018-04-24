@@ -10,7 +10,15 @@ spring:
     hibernate:
       ddl-auto: none
     show-sql: true
-    
+  rabbitmq:
+      host: 172.16.0.243
+      port: 5672
+      username: guest
+      password: guest
+  redis:
+    host: 172.16.0.243
+    port: 6379
+    database: 0  
 envx: test2410
 boy:
   name: eric
